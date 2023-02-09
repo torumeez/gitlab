@@ -220,6 +220,7 @@ header a:hover {
 .trusted-by {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: flex-start;
     padding: auto;
 }
@@ -231,7 +232,7 @@ header a:hover {
   color: #303030;
   font-family:"Inter",sans-serif;
   padding: 2rem;
-  padding-left: 3rem;
+  padding-left: 5rem;
   font-size: 24px;
   font-weight: lighter;
 }
@@ -247,7 +248,9 @@ header a:hover {
 
 
 .trusted-by li {
+  display: flex;
   margin: 1rem;
+  justify-content: center;
 }
 
 
@@ -256,10 +259,10 @@ header a:hover {
 }
 
 .background-image {
-  background-image: url(https://img.freepik.com/premium-vector/smooth-curve-purple-wavy-background-perfect-office-banner-landing-page-background-wallpaper_687236-112.jpg?w=740);
+  background-image: url(https://about.gitlab.com/nuxt-images/solutions/infinity-icon-cropped.svg);
   background-size: cover;
-  background-position: center;
-  height: 500px; /* Adjust as needed */
+  background-position: end;
+  height: 400px; 
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -267,17 +270,17 @@ header a:hover {
 }
 
 .box {
-  width: 358px; /* Adjust as needed */
-  height: 329px; /* Adjust as needed */
-  background-color: rgba(255, 255, 255, 0.5); /* Adjust as needed */
+  width: 358px; 
+  height: 329px; 
+  background-color: rgba(255, 255, 255, 0.5); 
   margin: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  border-radius: 10px; /* Adjust as needed */
-  box-shadow: 1px 1px 5px #ccc; /* Adjust as needed */
+  border-radius: 10px; 
+  box-shadow: 1px 1px 5px #ccc; 
 }
 
 
